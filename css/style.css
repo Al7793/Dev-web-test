@@ -1,8 +1,10 @@
-img{
-    width: 1000px;
+[alt]{
+    width: 800px;
     height: 50;
+    border: 5px solid red;
 }
 
 video{
     width: 1000px;
-}
+}   
+

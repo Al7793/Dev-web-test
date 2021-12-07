@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+
 div  >p {
     background-color: brown;
+}
+
+table{
+    border: 5px solid  red;
+}
+
+tbody tr:nth-child(2n){
+    background-color: gray;
+}
+tbody tr:nth-child(2n-1){
+    background-color: green;
+}
+
+tbody tr:hover{
+    background-color: indianred;
+}
+tr{
+    font-size: 20px;
+}
+tr td {
+    font-size: 0.8rem;
+}
+
+p{
+    width: 45vmax;
+    font-family: 'Corinthia', cursive;
 }
