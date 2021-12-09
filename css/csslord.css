@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container>*{
+    padding: 20px 0;
+    color: cornsilk;
+    text-align: center;
+}
+
+header{
+background-color: green;
+
+
+}
+
+.content{
+background-color: chocolate;
+float: left;
+width: 80%;
+padding-bottom: 600px;
+
+}
+
+.side{
+  background-color: grey;  
+float: right;
+width: 20%;
+padding-bottom: 600px;
+}
+    
+footer{
+  background-color: blue;  
+  clear: both;
+
+}
+
+.el{
+    display: inline-block;
+    background-color: crimson;
+    padding: 15%;
+    margin: 10px;
+}
+
+.el:hover{
+    background-color: darkolivegreen;
+    
+}
+
+.el:nth-child(3):hover{
+    position: relative;
+    top: 200px;
+    right: 100px;
+    z-index: 1;
+}
+

@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    margin: auto;
+    width: 80%;
+    grid-gap: 10px
+    
+}
+.centre{
+    
+}
+
+.elem{
+/*     width: 200px;
+    height: 200px;
+    font-size: 3rem */;
+    height: 200px;
+    
+}
+
+.elem:nth-child(1){
+background-color: red;
+}
+
+.elem:nth-child(2){
+    background-color: blue;
+}
+
+.elem:nth-child(3){
+    background-color: yellow;
+}
+
+.elem:nth-child(4){
+    background-color: purple;
+}
+
+.elem:nth-child(5){
+    background-color: green;
+}
+
+.elem:nth-child(6){
+    background-color: black;
+    color: white;
+}
