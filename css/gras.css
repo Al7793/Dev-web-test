@@ -1,0 +1,61 @@
+
+
+
+body{
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.content{
+color: white;
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: "PRINCIPAL S1" "PRINCIPAL S2" "pied pied" ;
+height: 80vh;
+font-size: 3rem;
+
+}
+
+
+
+.el:nth-child(1){
+background-color: red;
+grid-area: PRINCIPAL;
+
+}
+
+.el:nth-child(2){
+background-color: yellow;
+grid-area: S1;
+
+}
+.el:nth-child(3){
+background-color: rgb(27, 207, 27);
+grid-area: S2;
+
+}
+
+footer{
+
+background-color: blue;
+grid-area: pied;
+
+
+}
+@media screen and (max-width:500px) {
+    .content{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "PRINCIPAL" "S2" "S1" "pied" ;
+        
+        
+        
+        }
+
+}
+
+
+    
